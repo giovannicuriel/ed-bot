@@ -1,0 +1,28 @@
+{
+  "name": "ed-bot",
+  "version": "1.0.0",
+  "description": "A nice script to inform people about retrospective meeting actions.",
+  "main": "index.js",
+  "scripts": {
+    "login": "clasp login",
+    "create": "clasp create",
+    "push": "clasp push",
+    "deploy": "clasp deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giovannicuriel/ed-bot.git"
+  },
+  "keywords": [],
+  "author": "Giovanni Curiel dos Santos <giovannicuriel@gmail.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/giovannicuriel/ed-bot/issues"
+  },
+  "homepage": "https://github.com/giovannicuriel/ed-bot#readme",
+  "dependencies": {
+    "@google/clasp": "^2.3.0",
+    "@types/google-apps-script": "^1.0.15"
+  }
+}
